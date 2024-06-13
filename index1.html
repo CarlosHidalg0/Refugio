@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-content">
+            <h1 id="title">Registro</h1>
+
+            <form id="form">
+                <div class="input-group">
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Nombre" id="name" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Correo" id="email" required>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Contraseña" id="password" required minlength="8" maxlength="15">
+                    </div>
+                    <p>Olvidaste tu contraseña <a href="index2.html">Click Aqui</a></p>
+                </div>
+                <br>
+                <div class="btn-field">
+                    <button id="signUp" type="button">Registro</button>
+
+                    <button id="signIn" type="button">Login</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
